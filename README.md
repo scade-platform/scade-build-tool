@@ -1,12 +1,17 @@
-# SCADE Build Tool
+# SCADE Toolchain
 
-This repository contains binary packages for `scd`, the SCADE build tool. The main purpose of this tool is to build cross-platform packages from Swift code for both Apple and Android mobile platforms.
+The SCADE Toolchain is a comprehensive set of tools for building Swift code for both Apple and Android mobile platforms. The toolchain includes the following components:
 
-When building for the Android platform, the build tool automatically detects the installed Swift version and installs the corresponding Swift toolchain for Android. Learn more about the Swift toolchain for Android here: https://www.swift-android.com/
+- `scd`, the SCADE Build Tool, which supports building cross-platform packages from Swift code for both Apple and Android mobile platforms.
+
+- A port of the Swift toolchain for the Android platform. This toolchain supports all Android architectures, including 32-bit ones, and includes a complete port of the Swift Standard Library and Foundation library to the Android platform. Learn more about the Swift Toolchain for Android here: https://www.swift-android.com/
+
+- An improved version of Swift Package Manager with support for cross-platform XCFrameworks for both Apple and Android platforms. These frameworks can be used in SPM projects via the .binaryTarget command in the project manifest.
+
 
 ## Installation
 
-The SCADE build tool can be installed via the Homebrew package manager using the following command:
+The SCADE Toolchain can be installed via the Homebrew package manager using the following command:
 ```
 brew install scade-platform/toolchain/scd
 ```
