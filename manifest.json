@@ -18,6 +18,10 @@
         {
           "version": "5.10.1",
           "url": "https://github.com/scade-platform/swift-android-toolchain/releases/download/5.10.1/swift-android-compiler-5.10.1.tar.bz2"
+        },
+        {
+          "version": "6.0.2",
+          "url": "https://github.com/scade-platform/swift-android-toolchain/releases/download/6.0.2/swift-android-compiler-6.0.2.tar.bz2"
         }
       ]
     },
