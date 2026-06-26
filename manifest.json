@@ -98,6 +98,10 @@
         {
           "version": "6.3.1",
           "url": "https://github.com/scade-platform/swift-android-toolchain/releases/download/6.3.1/scade-swift-android-sdk-6.3.1.artifactbundle.zip"
+        },
+        {
+          "version": "6.3.1-1",
+          "url": "https://github.com/scade-platform/swift-android-toolchain/releases/download/6.3.1-1/scade-swift-android-sdk-6.3.1-1.artifactbundle.zip"
         }
       ]
     }
